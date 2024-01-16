@@ -1,0 +1,39 @@
+
+.header{
+    background: #333;
+    height: 100px
+}
+
+.info-window{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: -30px;
+
+}
+
+.info-window img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#content{
+    text-align: center;
+}
+.info-menu {
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info-menu li {
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
